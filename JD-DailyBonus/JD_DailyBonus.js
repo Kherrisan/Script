@@ -15,7 +15,7 @@ TG频道: @NobyDa
 
 开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入以下Key处的单引号内即可 */
 
-var Key = ''; //单引号内自行填写您抓取的Cookie
+var Key = '__jd_ref_cls=JDReact_StartReactModule; mba_muid=15857286667021683326141; mba_sid=15857286667031052566568787968.5; __jda=122270672.15857286667021683326141.1585728666.1585728666.1585728666.1; __jdb=122270672.5.15857286667021683326141|1.1585728666; __jdc=122270672; mobilev=html5; __jdv=122270672%7Cwww.google.com%7C-%7Creferral%7C-%7C1585728666702; TrackerID=M8kGwZAYFADpszlADZ6iLzQZ77ah37chbNb2CLNj4kRlqaBfCeaoEjivBvnquCnbBuwbe7b7cpmzG0MSyBPJsVWcqIthou3_pGis2haCl2DKV2690wGS4VfF14mGYPIAc-lrL5bcm0nqNz25xAMXaA; pt_key=AAJeZxsMADB2QMvuXSJz88U3ufGwW3Anu_ftRbzkOBRSUcXbKgtsm1cr5u0ByrDQHB9OnG_T_DA; pt_pin=jd_66b858a9f5ec0; pt_token=s608fasx; pwdt_id=jd_66b858a9f5ec0; whwswswws=; jcap_dvzw_fp=7500f0a84a1d5eed91c47ec82cfb756a$690794205482'; //单引号内自行填写您抓取的Cookie
 
 var DualKey = ''; //如需双账号签到,此处单引号内填写抓取的"账号2"Cookie, 否则请勿填写
 
