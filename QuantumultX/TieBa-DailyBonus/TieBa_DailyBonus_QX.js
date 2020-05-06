@@ -20,7 +20,7 @@ https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login url script-request-header TieBa_Get
 0 9 * * * TieBa_DailyBonus_QX.js
 
 */
-var cookieVal = $prefs.valueForKey("CookieTB");
+var cookieVal = 'BAIDUCUID=guSOalOSSughuv8W082La_a0vt0ii2foYuSb8_ufHi_xuSir_8SFa_8eWP0k81u469DmA; BAIDUZID=F1Hw3p0C8PoueSN3sB21Z24_uLjDEpuMFXbGNZFZCS2RvSy6Y-kDKszOUyBNMyc1TX4vXABkArQuz19DYLV6SCQ; BDUSS=TMtRHg2RWdBYXBCOWtINX5GZGthdFRNdldhUG1GRFJaaWc1aEM2NWJuSTdSc0pjQUFBQUFBJCQAAAAAAAAAAAEAAAB9m~AEem91ZGljazk3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADu5mlw7uZpcU; CUID=48F8592FB69E956106AED4224DD17430; TBBRAND=iPhone; _client_version=11.3.2; passtheme=light; BAIDU_WISE_UID=wapp_1583469244574_567; IS_NEW_USER=a6799c75016bbda0edebb0c7; TIEBAUID=528f9f1f07667aefd83cc056; BAIDUID=390BF8EBC9842794EE9EC26EF2B90D98:FG=1';
 var useParallel = 0; //0自动切换,1串行,2并行(当贴吧数量大于30个以后,并行可能会导致QX崩溃,所以您可以自动切换)
 var singleNotifyCount = 20; //想签到几个汇总到一个通知里,这里就填几个(比如我有13个要签到的,这里填了5,就会分三次消息通知过去)
 var process = {
